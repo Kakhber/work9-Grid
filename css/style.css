@@ -1,0 +1,29 @@
+body{
+    max-width: 1250px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: blue;
+}
+header{
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-end;
+}
+header h1{
+    font-size: 40px;
+}
+header img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+.box{
+    border:2px solid black;
+    text-align: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap:50;
+}
